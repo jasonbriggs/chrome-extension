@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Meta",
+  "description": "This extension makes is easier to access Meta search results",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Search with Meta"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
